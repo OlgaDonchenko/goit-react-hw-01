@@ -12,7 +12,6 @@ export default function App() {
         avatar={userDate.avatar}
         stats={userDate.stats}
       />
-      <FriendList />
     </>
   );
 }
