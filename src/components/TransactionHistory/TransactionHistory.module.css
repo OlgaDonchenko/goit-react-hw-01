@@ -1,0 +1,25 @@
+.table {
+  border-collapse: collapse;
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+.thUp {
+  border: 2px solid #030303;
+  background-color: #353434;
+  color: #ffffff;
+}
+.lineTd {
+  border: 2px solid #1f1f1f;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+}
+.lineTr {
+  background-color: #ffffff;
+  color: #060606;
+}
+
+.lineTr:nth-child(even) {
+  background-color: #b7b5b5;
+}
