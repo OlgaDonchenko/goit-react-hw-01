@@ -4,6 +4,8 @@ import css from "./App.module.css";
 import FriendList from "../FriendList/FriendList";
 import FriendItem from "../FriendItem/FriendItem";
 import friends from "../FriendList/friend.json";
+import TransactionsHistory from "../TransactionHistory/TransactionHistory";
+import transactions from "../TransactionHistory/transactions.json";
 
 export default function App() {
   return (
@@ -16,6 +18,7 @@ export default function App() {
         stats={userDate.stats}
       />
       <FriendList friends={friends} />
+      <TransactionsHistory transactions={transactions} />
     </>
   );
 }
